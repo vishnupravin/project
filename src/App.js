@@ -11,15 +11,19 @@ function App() {
     features : [
       {
         name: "Single User",
+        isEnabled : true
       },
       {
         name: "5GB Storage",
+        isEnabled : true
       },
       {
         name: "Unlimited Public Projects",
+        isEnabled : true
       },
       {
         name: "Community Access",
+        isEnabled : true
       },
       {
         name: "Unlimited Private Projects",
@@ -41,24 +45,31 @@ function App() {
     features : [
       {
         name: "5 User",
+        isEnabled : true
       },
       {
         name: "50GB Storage",
+        isEnabled : true
       },
       {
         name: "Unlimited Public Projects",
+        isEnabled : true
       },
       {
         name: "Community Access",
+        isEnabled : true
       },
       {
         name: "Unlimited Private Projects",
+        isEnabled : true
       },
       {
         name: "Dedicated Phone Support",
+        isEnabled : true
       },
       {
         name: "Free Subdomain",
+        isEnabled : true
       },
       {
         name: "Monthly Status Reports",
@@ -71,27 +82,35 @@ function App() {
     features : [
       {
         name: "Unlimited User",
+        isEnabled : true
       },
       {
         name: "150GB Storage",
+        isEnabled : true
       },
       {
         name: "Unlimited Public Projects",
+        isEnabled : true
       },
       {
         name: "Community Access",
+        isEnabled : true
       },
       {
         name: "Unlimited Private Projects",
+        isEnabled : true
       },
       {
         name: "Dedicated Phone Support",
+        isEnabled : true
       },
       {
         name: "Free Subdomain",
+        isEnabled : true
       },
       {
         name: "Monthly Status Reports",
+        isEnabled : true
       },
     ]
   },

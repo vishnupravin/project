@@ -1,3 +1,6 @@
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faXmark,faCheck } from '@fortawesome/free-solid-svg-icons'
+
 function Card (props){
     return (
         <div class="col-lg-4">
@@ -8,8 +11,10 @@ function Card (props){
             <hr></hr>
             <ul>
               {
-                 props.card.features.map((items)=>{
-                  return <li>{items.name}</li>
+                 props.card.features.map((item)=>{
+                  return item.isEnabled? <div className ="font-card"><FontAwesomeIcon icon={faCheck} className="icon"/>
+                 <strong>{item.name}</strong></div>:<div
+                   className="font-card text-muted"><FontAwesomeIcon icon={faXmark}/>{item.name}</div>
                  }
                  )
               }
